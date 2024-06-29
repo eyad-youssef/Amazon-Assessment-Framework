@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite">
+
+    <test name="AmazonReport">
+        <classes>
+            <class name="tests.StepDefinition" />
+        </classes>
+    </test>
+</suite>

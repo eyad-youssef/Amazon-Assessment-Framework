@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Jun 28 21:13:53 EET 2024","Fri Jun 28 21:13:53 EET 2024","275","Default Suite","Amazon","tests.third_scenario.thirdScenarioTestRunner","tests.third_scenario.thirdScenarioTestRunner","runScenario","Runs Cucumber Scenarios",""
+"broken","Fri Jun 28 21:13:53 EET 2024","Fri Jun 28 21:13:53 EET 2024","16","Default Suite","Amazon","tests.third_scenario.thirdScenarioTestRunner","tests.third_scenario.thirdScenarioTestRunner","runScenario","Runs Cucumber Scenarios",""
+"broken","Fri Jun 28 21:13:53 EET 2024","Fri Jun 28 21:13:53 EET 2024","12","Default Suite","Amazon","tests.third_scenario.thirdScenarioTestRunner","tests.third_scenario.thirdScenarioTestRunner","runScenario","Runs Cucumber Scenarios",""
+"broken","Fri Jun 28 21:13:08 EET 2024","Fri Jun 28 21:13:08 EET 2024","8","Default Suite","Amazon","tests.third_scenario.thirdScenarioTestRunner","tests.third_scenario.thirdScenarioTestRunner","setUpClass","setUpClass",""
+"broken","Sat Jun 29 12:25:05 EET 2024","Sat Jun 29 12:25:06 EET 2024","218","Default Suite","Amazon","tests.first_scenario.firstScenarioTestRunner","tests.first_scenario.firstScenarioTestRunner","runScenario","Runs Cucumber Scenarios",""
