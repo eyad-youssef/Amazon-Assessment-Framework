@@ -13,7 +13,6 @@ The Automation Framework is a powerful and flexible automation solution built us
 - [Test Execution](#test-execution)
 - [Reporting](#reporting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -100,4 +99,3 @@ Contributions to the Automation Framework are welcome! If you encounter any issu
 5. Submit a pull request to the main repository.
 
 
-I hope this README file template helps you create a comprehensive and informative documentation for your automation framework!
