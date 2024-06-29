@@ -31,7 +31,7 @@ The Automation Framework is designed to automate web testing using Selenium, Cuc
 
 Before using the Automation Framework, ensure that the following software is installed:
 
-- Java Development Kit (JDK) 8 or higher: [Download JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- Java Development Kit (JDK) 11 or higher: [Download JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - Maven: [Download Maven](https://maven.apache.org/download.cgi)
 
 ## Installation
@@ -56,27 +56,26 @@ Before using the Automation Framework, ensure that the following software is ins
 
 ## Usage
 
-The Automation Framework provides a set of sample tests located in the `src/test/resources/features` directory. You can use these samples as a reference to write your own feature files and step definitions.
+The Automation Framework provides a set of sample tests . You can use these samples as a reference to write your own feature files and step definitions.
 
-1. Create your feature files using the Gherkin syntax and place them in the `src/test/resources/features` directory.
+1. Create your feature files using the Gherkin syntax and place them in the `src/test/test` directory.
 
 2. Implement the step definitions for your feature files in the `src/test/java/stepdefinitions` package.
 
 3. Utilize the Singleton design pattern for WebDriver management by using the `WebDriverSingleton.getDriver()` method to access the WebDriver instance.
 
-4. Run the tests using the provided TestNG XML files located in the `src/test/resources` directory.
+
 
 ## Test Execution
 
-To execute the tests, you can use the provided TestNG XML files located in the `src/test/resources` directory. These XML files allow you to configure the test suites and define the specific feature files or scenarios to be executed.
+To execute the tests, you can use the provided TestNG XML files located in the `src/tests` directory. These XML files allow you to configure the test suites and define the specific feature files or scenarios to be executed.
 
 You can run the tests using Maven:
 
 ```bash
-mvn clean test -DsuiteXmlFile=testng.xml
+mvn clean test -DsuiteXmlFile=regressionSuite.xml
 ```
 
-Replace `testng.xml` with the name of the TestNG XML file you want to execute.
 
 ## Reporting
 
